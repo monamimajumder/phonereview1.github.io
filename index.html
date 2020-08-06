@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Review</title>
+    <link href="index.css" rel="stylesheet" type ="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <!--first-page-->
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="https://i.pinimg.com/originals/e0/26/15/e02615958e2cd7acfc2ee46ddb9c9837.jpg">
+            </div>
+            <div class="navlinks">
+                <ul>
+                    <li><a href="#1">Home</a></li>
+                    <li><a href="#2">Phone</a></li>
+                    <li><a href="#3">SALE</a></li>
+                    <li><a href="#4">Accessories</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="info">
+            <div class="overlay"></div>
+            <img src="image/phon1 (1).jpg" class="mobile">
+            <div id="circle">
+                <div class="feautures one">
+                    <img src="image/phone1.jpg">
+                    <div class="content">
+                        <h1>Processor</h1>
+                        <p>Hexa Core(2.65 GHz)</p>
+                    </div>
+                </div>
+                <div class="feautures two">
+                    <img src="image/phone2.jpg">
+                    <div class="content">
+                        <h1>Battery</h1>
+                        <p>3210 mAh</p>
+                    </div>
+                </div>
+                <div class="feautures three">
+                    <img src="image/phone3.jpg">
+                    <div class="content">
+                        <h1>Display</h1>
+                        <p>6.1" (15.49 cm)</p>
+                    </div>
+                </div>
+                <div class="feautures four">
+                    <img src="image/phone4.jpg">
+                    <div class="content">
+                        <h1>Camera</h1>
+                        <p>12MP + 12MP + 12MP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="control">
+            <i class="fa fa-angle-up fa-3x" id="upbtn"></i>
+            <h3>Features</h3>
+            <i class="fa fa-angle-down fa-3x" id="downbtn"></i>
+        </div>
+    </div>
+
+    <!--second-page-->
+    <!--txt-->
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+    </div>
+
+
+    <!--emi calculator-->
+    <div class="box">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h1>EMI Calculator</h1>
+                    <p>The Simple Loan Calculator will determine your estimated payments
+                    for loan amounts, interest rates and terms.</p>
+                </div>
+                <div class="card-body">
+                    <form class="w-50 m-auto">
+                        <div class="group">
+                            <label> Loan Amount</label>
+                            <input type="text" placeholder="enter amount" id="amount" class="form-control w-100">
+                        </div>
+                        <div class="group">
+                            <label>Interest Rate</label>
+                            <input type="number" placeholder="5%-6% :)" id="interest" class="form-control w-100">
+                        </div>
+                        <div class="group">
+                            <label>Loan Tenure</label>
+                            <input type="number" placeholder="e.g 1,2 etc" id="years" class="form-control w-100">
+                        </div>
+                        <br>
+                        <button type = "button" onclick = "emi()" class="btn btn-success" >Submit</button>
+                       
+                        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <br>
+        
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <div class="nm"><h1>Calculated Result</h1></div>
+                </div>
+                <div class="card-body">
+                    <form class="w-50 m-auto">
+                        <div class="group1">
+                            <label> Total Interest</label>
+                            <input type="text" id="totalInterest" disabled>
+                        </div>
+                        <div class="group2">
+                            <label>Total Amount</label>
+                            <input type="number" id="totalPayment" disabled>
+                        </div>
+                        <div class="group3">
+                            <label>Monthly Payments</label>
+                            <input type="number"id="monthlyPayments" disabled>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+
+    <!--third page-->
+    <div class="grid">
+        <section class="top-container">
+        <div class="showcase">
+            <h1>Your One-Tap Review App</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            <a href="####" class="grid-btn">Read More</a>
+        </div>
+        <div class="top-box top-box-a">
+            <h4>Insurance</h4>
+            <p class="price">100 INR/ Month</p>
+            <a href="#100" class="grid-btn">Buy Now</a>
+        </div>
+         <div class="top-box top-box-b">
+            <h4>Add To Wishlist</h4>
+            <p class="price">Get Free delievery</p>
+            <a href="#100" class="grid-btn">Show Me</a>
+        </div>
+        </section>
+        <br>
+        <section class="grid-boxes">
+        <div class="grid-box">
+          <i class="fa fa-pie-chart fa-3x"></i>
+          <h3>Analytics</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+        </div>
+        <div class="grid-box">
+          <i class="fa fa-globe fa-3x"></i>
+          <h3>Marketing</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+        </div>
+        <div class="grid-box">
+          <i class="fa fa-cog fa-3x"></i>
+          <h3>Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+        </div>
+        <div class="grid-box">
+          <i class="fa fa-users fa-3x"></i>
+          <h3>Support</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+        </div>
+        <br>
+        </section>
+        <section class="grid-info">
+        <img src="image/phone5.jpg">
+        <div class="grid-info-phone">
+            <h2>Your Business on the Web</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            <a href="#90000" class="grid-btn">Read More</a>
+        </div>
+        </section>
+    </div>
+
+    <br>
+
+
+
+    <!--footer-->
+    <footer class="footer">
+        <main class="container-fluid">
+            <div class="row p-3">
+                <div class="col-md-3 col-12">
+                    <h1>LABORIS</h1>
+                    <p class="mt-5 text-justify">We value how earnestly you save your every penny to get a phone you desire. Here we provide you the best device along with salient features in cheapest deals :)</p>
+                </div>
+                <div class="col-md-3 col-12">
+                    <h1>Quick Links</h1>
+                    <div class="links">
+                    <ul>
+                        <li><a href="#30">Sell Old Phones</a></li>
+                        <li><a href="#30">Resale</a></li>
+                        <li><a href="#30">Warranty</a></li>
+                        <li><a href="#30">Latest Deals !!</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <h1>Contacts</h1>
+                    <dl class="contact-list">
+                        <dt>Adress:</dt>
+                        <dd>30,Wellington Square, London</dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>email:</dt>
+                        <dd><a href="mailto:monamimj01@gmail.com">i_am_mm_18@gmail.com</a></dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>phones:</dt>
+                        <dd><a href="tel:#">+91-9191919191</a></dd>
+                    </dl>
+                </div>
+                <div class="col-md-3 col-12">
+                    <h1>Our Newsletter</h1>
+                    <input type="text w-40 h-40" placeholder="Type Message" >
+                    <br>
+                    <button class="btn btn-success">Send </button>
+                    <br>
+                   <div class="social-links">
+                        <a href="https://facebook.com"><i class="fa fa-facebook fa-2x"></i>
+                    <a href="https://twitter.com"></a><i class="fa fa-twitter fa-2x"></i>
+                    <a href="https://pinterest.com"><i class="fa fa-pinterest fa-2x "></i>
+                    <a href="https://instagram.com"><i class="fa fa-instagram fa-2x"></i>
+                   </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="text-capitalize"> &#169 i_am_mm_18 | 2020 | All Rights Reserved</p>
+            </div>
+        </main>
+    </footer>
+
+    
+    
+    <script src="index.js"></script>
+ 
+</body>
+</html>
